@@ -1,0 +1,11 @@
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.csprojAssemblyReference.cache
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.csproj.CoreCompileInputs.cache
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.AssemblyInfoInputs.cache
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.AssemblyInfo.cs
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\bin\Debug\netcoreapp2.2\SniperElite.deps.json
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\bin\Debug\netcoreapp2.2\SniperElite.runtimeconfig.json
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\bin\Debug\netcoreapp2.2\SniperElite.runtimeconfig.dev.json
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\bin\Debug\netcoreapp2.2\SniperElite.dll
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\bin\Debug\netcoreapp2.2\SniperElite.pdb
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.dll
+C:\Users\Diogo Sequeira\RiderProjects\SniperElite\SniperElite\obj\Debug\netcoreapp2.2\SniperElite.pdb
