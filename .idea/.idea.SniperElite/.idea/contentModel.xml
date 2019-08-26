@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Diogo Sequeira\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -8,6 +8,7 @@
       <e p="SniperElite" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Enemies" t="Include">
+          <e p="ArmoredEnemy.cs" t="Include" />
           <e p="BadGuy.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="Tree.cs" t="Include" />

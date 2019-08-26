@@ -33,7 +33,7 @@ namespace SniperElite
 
                     {
                         enemies.setHp(enemies.getHp() - bulletDamage);
-                        Console.WriteLine("My current hp is: " + enemies.getHp());
+                        enemies.myCurrentHp();
                     }
                     else if (enemies.getHp() - bulletDamage < 0 || enemies.getHp() < 0)
                     {

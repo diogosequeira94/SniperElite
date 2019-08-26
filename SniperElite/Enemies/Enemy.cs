@@ -8,9 +8,9 @@ namespace SniperElite
         private int hp = 100;
         private Boolean isDead;
 
-        public void warCry()
+        public virtual void warCry()
         {
-            Console.WriteLine("Shit I got hit! ");
+            Console.WriteLine("Shit I got hit!");
         }
 
         public int getHp()
@@ -33,5 +33,10 @@ namespace SniperElite
             isDead = isIt;
         }
 
+        public void myCurrentHp()
+        {
+            Console.WriteLine("My current hp is: " + hp);
+
+        }
     }
 }

@@ -4,9 +4,9 @@
     <list default="true" id="83f0540b-5dc5-4dc1-8f3f-f98186017104" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/Enemie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Utils/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Utils/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -19,11 +19,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SniperElite/Utils/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/Tree.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,10 +59,13 @@
         <option value="$PROJECT_DIR$/SniperElite/Game.cs" />
         <option value="$PROJECT_DIR$/SniperElite/BadGuy.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" />
-        <option value="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Utils/Katana.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Utils/Game.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566806683506</updated>
       <workItem from="1566806685125" duration="3092000" />
-      <workItem from="1566817278645" duration="6971000" />
+      <workItem from="1566817278645" duration="8272000" />
+      <workItem from="1566833315310" duration="1099000" />
     </task>
     <servers />
   </component>
@@ -117,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -131,14 +152,14 @@
     <state x="453" y="87" key="#Default/1920.1080" />
     <state x="549" y="166" key="FileChooserDialogImpl" />
     <state x="549" y="166" key="FileChooserDialogImpl/1920.1080" />
-    <state width="1493" height="367" key="GridCell.Tab.0.bottom" />
-    <state width="1493" height="367" key="GridCell.Tab.0.bottom/1920.1080" />
-    <state width="1493" height="367" key="GridCell.Tab.0.center" />
-    <state width="1493" height="367" key="GridCell.Tab.0.center/1920.1080" />
-    <state width="1493" height="367" key="GridCell.Tab.0.left" />
-    <state width="1493" height="367" key="GridCell.Tab.0.left/1920.1080" />
-    <state width="1493" height="367" key="GridCell.Tab.0.right" />
-    <state width="1493" height="367" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="483" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="483" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="483" key="GridCell.Tab.0.center" />
+    <state width="1493" height="483" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="483" key="GridCell.Tab.0.left" />
+    <state width="1493" height="483" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="483" key="GridCell.Tab.0.right" />
+    <state width="1493" height="483" key="GridCell.Tab.0.right/1920.1080" />
     <state x="601" y="127" key="RiderGenerateDialog" />
     <state x="601" y="127" key="RiderGenerateDialog/1920.1080" />
   </component>
