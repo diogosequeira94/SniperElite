@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f0540b-5dc5-4dc1-8f3f-f98186017104" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +53,10 @@
         <option value="$PROJECT_DIR$/SniperElite/Utils/Katana.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Utils/Game.cs" />
-        <option value="$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Enemies/ArmoredEnemy.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +113,7 @@
       <updated>1566806683506</updated>
       <workItem from="1566806685125" duration="3092000" />
       <workItem from="1566817278645" duration="8272000" />
-      <workItem from="1566833315310" duration="1099000" />
+      <workItem from="1566833315310" duration="1385000" />
     </task>
     <servers />
   </component>
