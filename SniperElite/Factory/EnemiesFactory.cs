@@ -21,7 +21,7 @@ namespace SniperElite
                 Random random = new Random();
                 int randomNumber = random.Next(1, 10);
 
-                if (randomNumber > 5)
+                if (randomNumber > 4)
                 {
                     BadGuy badGuy = new BadGuy();
                     enemies.Add(badGuy);
@@ -59,13 +59,15 @@ namespace SniperElite
             return false;
         }
 
-        public void showStatistics()
+        public void showStatistics(int slices, int bullets)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("Statistics of the Game:\n");
             Console.WriteLine("Number of Trees: " + numberOfTrees);
             Console.WriteLine("Number of Bad Guys: " + numberOfBadGuys);
+            Console.WriteLine("Shots Fired: " + bullets);
+            Console.WriteLine("Strikes Done: " + slices);
             Console.WriteLine("-------------------------------------");
             Console.ResetColor();
             

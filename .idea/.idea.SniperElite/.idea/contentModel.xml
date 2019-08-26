@@ -9,11 +9,11 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Enemies" t="Include">
           <e p="BadGuy.cs" t="Include" />
-          <e p="Enemie.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="Tree.cs" t="Include" />
         </e>
         <e p="Factory" t="Include">
-          <e p="EnemieFactory.cs" t="Include" />
+          <e p="EnemiesFactory.cs" t="Include" />
         </e>
         <e p="Main.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -26,6 +26,7 @@
         <e p="SniperElite.csproj" t="IncludeRecursive" />
         <e p="Utils" t="Include">
           <e p="Game.cs" t="Include" />
+          <e p="Katana.cs" t="Include" />
           <e p="SniperRifle.cs" t="Include" />
         </e>
       </e>

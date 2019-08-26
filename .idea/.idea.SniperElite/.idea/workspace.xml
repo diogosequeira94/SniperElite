@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f0540b-5dc5-4dc1-8f3f-f98186017104" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SniperElite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Enemies/Enemie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/Utils/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Utils/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/bin/Debug/netcoreapp2.2/SniperElite.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SniperElite/obj/Debug/netcoreapp2.2/SniperElite.pdb" afterDir="false" />
     </list>
@@ -23,11 +25,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SniperElite/Utils/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/Enemie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/Tree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Enemies/BadGuy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SniperElite/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SniperElite/Utils/Katana.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,8 +44,10 @@
         <option value="$PROJECT_DIR$/SniperElite/Game.cs" />
         <option value="$PROJECT_DIR$/SniperElite/BadGuy.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Factory/EnemieFactory.cs" />
-        <option value="$PROJECT_DIR$/SniperElite/Utils/Game.cs" />
         <option value="$PROJECT_DIR$/SniperElite/Utils/SniperRifle.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Utils/Katana.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Factory/EnemiesFactory.cs" />
+        <option value="$PROJECT_DIR$/SniperElite/Utils/Game.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566806683506</updated>
       <workItem from="1566806685125" duration="3092000" />
-      <workItem from="1566817278645" duration="4296000" />
+      <workItem from="1566817278645" duration="6971000" />
     </task>
     <servers />
   </component>
@@ -126,14 +131,14 @@
     <state x="453" y="87" key="#Default/1920.1080" />
     <state x="549" y="166" key="FileChooserDialogImpl" />
     <state x="549" y="166" key="FileChooserDialogImpl/1920.1080" />
-    <state width="726" height="572" key="GridCell.Tab.0.bottom" />
-    <state width="726" height="572" key="GridCell.Tab.0.bottom/1920.1080" />
-    <state width="726" height="572" key="GridCell.Tab.0.center" />
-    <state width="726" height="572" key="GridCell.Tab.0.center/1920.1080" />
-    <state width="726" height="572" key="GridCell.Tab.0.left" />
-    <state width="726" height="572" key="GridCell.Tab.0.left/1920.1080" />
-    <state width="726" height="572" key="GridCell.Tab.0.right" />
-    <state width="726" height="572" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="367" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="367" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="367" key="GridCell.Tab.0.center" />
+    <state width="1493" height="367" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="367" key="GridCell.Tab.0.left" />
+    <state width="1493" height="367" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="367" key="GridCell.Tab.0.right" />
+    <state width="1493" height="367" key="GridCell.Tab.0.right/1920.1080" />
     <state x="601" y="127" key="RiderGenerateDialog" />
     <state x="601" y="127" key="RiderGenerateDialog/1920.1080" />
   </component>
