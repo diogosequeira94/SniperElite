@@ -25,14 +25,12 @@ namespace SniperElite
                 {
                     BadGuy badGuy = new BadGuy();
                     enemies.Add(badGuy);
-                    Console.WriteLine("Bad Guy Created!");
                     numberOfBadGuys++;
                 }
                 else
                 {
                     Tree tree = new Tree();
                     enemies.Add(tree);
-                    Console.WriteLine("Tree Created!");
                     numberOfTrees++;
                 }
             }

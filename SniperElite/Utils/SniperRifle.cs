@@ -14,7 +14,7 @@ namespace SniperElite
         public void shootEnemy(Enemies enemies)
         {
             Random random = new Random();
-            int bulletDamage = random.Next(1, 10);
+            int bulletDamage = random.Next(1, 30);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("A bullet was fired with the power of: " + bulletDamage);
             Console.ResetColor(); 
@@ -34,17 +34,14 @@ namespace SniperElite
                     {
                         enemies.setHp(enemies.getHp() - bulletDamage);
                         Console.WriteLine("My current hp is: " + enemies.getHp());
-                        enemies.warCry();
                     }
                     else if (enemies.getHp() - bulletDamage < 0 || enemies.getHp() < 0)
                     {
                         enemies.setIsDead(true);
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Magenta;
                         Console.WriteLine("*** ENEMY IS DEAD ***");
                         Console.ResetColor();
-                        {
-                            enemies.warCry();
-                        }
+                        
                     }
                 }
             }

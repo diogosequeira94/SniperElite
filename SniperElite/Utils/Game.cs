@@ -45,12 +45,16 @@ namespace SniperElite
                         if (myArray[i].GetType() == typeof(BadGuy))
                         {
                             sniperRifle.shootEnemy(myArray[i]);
+                            Console.ForegroundColor = ConsoleColor.Red;
                             myArray[i].warCry();
+                            Console.ResetColor();
 
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Don't shoot! I'm a tree :(");
+                            Console.ResetColor();
                         }
 
 
